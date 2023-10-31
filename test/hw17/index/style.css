@@ -1,0 +1,364 @@
+.home {
+  background-color: #ffe6e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: var(--bg-white-pink);
+  width: 1440px;
+  height: 3770px;
+  position: relative;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 3332px;
+  top: 0;
+  left: 0;
+}
+
+.home .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 2327px;
+  top: 0;
+  left: 0;
+}
+
+.home .bio-background {
+  position: absolute;
+  width: auto;
+  top: 741px;
+  left: 4px;
+}
+
+.home .bio {
+  display: flex;
+  flex-direction: column;
+  width: 735px;
+  height: 272px;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 795px;
+  left: 89px;
+}
+
+.home .body {
+  display: flex;
+  flex-direction: column;
+  width: 748px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -6.5px;
+  margin-right: -6.5px;
+}
+
+.home .text-wrapper {
+  position: relative;
+  width: 755px;
+  margin-top: -1px;
+  margin-right: -7px;
+  text-shadow: 8px 8px 8px #ffffff59;
+  font-family: 'Inria Sans Light', sans-serif;
+  font-weight: 300;
+  color: var(--typography-navy);
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 4.16px;
+  line-height: normal;
+}
+
+.home .p {
+  position: relative;
+  width: 748px;
+  text-shadow: 8px 8px 8px #ffffff59;
+  font-family: 'Inria Sans Light', sans-serif;
+  font-weight: 300;
+  color: var(--typography-navy);
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 4.16px;
+  line-height: normal;
+}
+
+.home .main-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 26px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -5px;
+  background-color: var(--blue);
+  border-radius: 380px;
+}
+
+.home .text-wrapper-2 {
+  position: relative;
+  width: 317.75px;
+  font-family: 'Inria Sans Regular', sans-serif;
+  font-weight: 400;
+  color: var(--variable-collection-white-gold);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 3.12px;
+  line-height: normal;
+}
+
+.home .overlap-wrapper {
+  position: absolute;
+  width: 1438px;
+  height: 868px;
+  top: 0;
+  left: 2px;
+}
+
+.home .overlap-2 {
+  position: relative;
+  height: 868px;
+}
+
+.home .header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 63px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.home .home-logo {
+  position: relative;
+  width: 444px;
+  height: 337px;
+  object-fit: cover;
+}
+
+.home .navigation {
+  display: flex;
+  flex-direction: column;
+  width: 931px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 75px;
+  position: relative;
+}
+
+.home .tabs {
+  height: 43px;
+  gap: 96px;
+  padding: 0px 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.home .tab-name-wrapper {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.home .tab-name {
+  position: relative;
+  width: fit-content;
+  margin-top: -2px;
+  text-shadow: 8px 8px 4px #ffffff40;
+  font-family: 'Inria Serif Regular', serif;
+  font-weight: 400;
+  color: var(--blue);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .underline {
+  position: relative;
+  width: 1015.75px;
+  height: 7.5px;
+  margin-bottom: -3.75px;
+  margin-left: -84.75px;
+}
+
+.home .hero-img {
+  position: absolute;
+  width: 1328px;
+  height: 640px;
+  top: 232px;
+  left: 60px;
+}
+
+.home .overlap-3 {
+  position: relative;
+  height: 652px;
+}
+
+.home .overlap-group-2 {
+  position: absolute;
+  width: 1231px;
+  height: 652px;
+  top: 0;
+  left: 97px;
+}
+
+.home .headshot {
+  position: absolute;
+  width: 678px;
+  height: 652px;
+  top: 0;
+  left: 553px;
+}
+
+.home .name-title {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 171px;
+  left: 0;
+}
+
+.home .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-shadow: 8px 8px 8px #ffffff59;
+  font-family: 'Inria Serif Bold', serif;
+  font-weight: 400;
+  color: var(--typography-navy);
+  font-size: 96px;
+  letter-spacing: 12.48px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .UI-UX-VISUAL {
+  position: relative;
+  width: fit-content;
+  text-shadow: 8px 8px 8px #ffffff59;
+  font-family: 'Inria Serif Bold', serif;
+  font-weight: 200;
+  color: var(--typography-navy);
+  font-size: 36px;
+  letter-spacing: 4.68px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .leaves {
+  position: absolute;
+  width: 129px;
+  height: 163px;
+  top: 356px;
+  left: 0;
+}
+
+.home .pink-margin-bar {
+  position: absolute;
+  width: 8px;
+  height: 2327px;
+  top: 0;
+  left: 0;
+}
+
+.home .projects {
+  position: absolute;
+  width: 1070px;
+  height: 1971px;
+  top: 1245px;
+  left: 185px;
+  object-fit: cover;
+}
+
+.home .blue-margin-bar {
+  position: absolute;
+  width: 8px;
+  height: 1889px;
+  top: 1443px;
+  left: 1432px;
+}
+
+.home .footer {
+  position: relative;
+  justify-content: baseline;
+  width: fit-content 100%;
+  height: 438px;
+  top: 3332px;
+  left: -1px;
+  background-color: var(--blue);
+}
+
+.home .footer-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 26px;
+  position: absolute;
+  top: 106px;
+  left: 786px;
+  background-color: var(--baby-pink);
+  border-radius: 380px;
+}
+
+.home .text-wrapper-4 {
+  position: relative;
+  width: 317.75px;
+  font-family: 'Inria Sans Regular', sans-serif;
+  font-weight: 400;
+  color: var(--navy);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 3.12px;
+  line-height: normal;
+}
+
+.home .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 26px;
+  position: absolute;
+  top: 248px;
+  left: 786px;
+  background-color: var(--baby-pink);
+  border-radius: 380px;
+}
+
+.home .left-side-footer {
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  top: 96px;
+  left: 278px;
+}
+
+.home .icons {
+  display: inline-flex;
+  align-items: left;
+  position: relative;
+  width: 30px;
+  height: auto;
+}
+
+.home .img {
+  position: relative;
+  width: 312px;
+  height: auto;
+}
